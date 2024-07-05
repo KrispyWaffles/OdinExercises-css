@@ -1,0 +1,17 @@
+.odd { 
+    background-color: #FF8D75;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+} 
+
+#zoom {
+    color: #75B5FF;
+    font-size: 36px;
+}
+
+#pop {
+    background-color: #9EDF76;
+    font-weight: bold;
+    font-size: 24px;
+}
+
