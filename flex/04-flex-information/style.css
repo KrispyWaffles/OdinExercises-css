@@ -24,3 +24,42 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* my solution */
+
+/* .title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.plants-container {
+  display: flex;
+  margin: auto;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: inline-flex;
+  width: auto;
+} */
+
+body {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 32px
+}
+
+.plants-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.info {
+  max-width: 200px;
+}
