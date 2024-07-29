@@ -37,37 +37,49 @@ body {
   
 }
 
+
+.spacing {
+  display: flex;
+  flex: 1;
+}
+
+
 .header {
    font-size: 32px;
    font-weight: 900;
    display: flex;
    align-items: center;
-   padding-left: 16px;
+   /* padding-left: 16px; */
+   padding: 0 16px;
   }
 
-.footer {
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
 
 .sidebar {
-  display: flex;
+  /* display: flex; */
   flex-shrink: 0;
- 
   padding: 16px;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
-  
+  /* odin solution */
+  padding: 48px;
+  gap: 32;
  
 }
 
 
 ul {
   list-style-type: none;
+  /* odin solution */
+  margin: 0;
+  padding: 0;
+}
+
+/* odin solution */
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -79,17 +91,19 @@ a {
 
 .card {
   /* display: flex;
-  flex-direction: column; */
- 
+  align-items: center; */
   padding: 16px;
   margin: 16px;
-  
-  width: 250px;
+  width: 300px;
 }
 
 
-
-.spacing {
+.footer {
   display: flex;
-  flex: 1;
+  align-items: center;
+  justify-content: center;
+  padding: auto;
 }
+
+
+
