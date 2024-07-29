@@ -24,3 +24,105 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
+/* my solution */
+
+/* ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+} */
+
+/* footer height */
+
+/* #content-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2.5rem; 
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+} */
+
+/* navigation bar */
+
+/* nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.right-links {
+  margin-left: auto;
+} */
+
+/* image and opt-in section */
+
+
+/* .content {
+ 
+  align-content: center;
+ 
+}
+
+.content div {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+} */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 8px 16px;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+
+a {
+  color: #661;
+  text-decoration: none;
+}
+
+
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background: #eee;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
